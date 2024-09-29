@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ENCUESTA NUEVO</title>
+</head>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta Rápida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Encuesta Rápida</h1>
+    
+    <!-- Botones circulares para votar -->
+    <button id="irving" class="button" onclick="addVote('Irving')">Irving</button>
+    <button id="juan" class="button" onclick="addVote('Juan')">Juan</button>
+    <button id="santos" class="button" onclick="addVote('Santos')">Santos</button>
+
+    <!-- Botones para guardar y limpiar -->
+    <br>
+    <button id="saveVotes" class="button-utility" onclick="saveVotes()">Guardar Votos</button>
+    <button id="clearVotes" class="button-utility" onclick="clearVotes()">Limpiar Votos</button>
+
+    <!-- Tabla para mostrar los resultados -->
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Votos</th>
+            </tr>
+        </thead>
+        <tbody id="resultsTable">
+            <tr>
+                <td>Irving</td>
+                <td id="irvingVotes">0</td>
+            </tr>
+            <tr>
+                <td>Juan</td>
+                <td id="juanVotes">0</td>
+            </tr>
+            <tr>
+                <td>Santos</td>
+                <td id="santosVotes">0</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+<body>
+</body>
+</html>

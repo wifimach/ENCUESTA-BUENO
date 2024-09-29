@@ -1,0 +1,73 @@
+/* Estilos globales para toda la página */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de los botones circulares */
+.button {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 14px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    line-height: 80px;
+}
+
+/* Botón personalizado para cada nombre */
+#irving { background-color: #3498db; }
+#juan { background-color: #e74c3c; }
+#santos { background-color: #f1c40f; }
+
+/* Estilos para los botones de utilidad (Guardar y Limpiar) */
+.button-utility {
+    width: 120px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: #34495e;
+}
+
+#saveVotes { background-color: #2ecc71; }
+#clearVotes { background-color: #e74c3c; }
+
+/* Estilos de la tabla */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+/* Estilos responsivos para pantallas pequeñas */
+@media (max-width: 600px) {
+    .button {
+        width: 60px;
+        height: 60px;
+        font-size: 12px;
+        line-height: 60px;
+    }
+}
+@charset "utf-8";
+/* CSS Document */
+
