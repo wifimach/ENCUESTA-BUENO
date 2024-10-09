@@ -26,6 +26,11 @@ body {
 #juan { background-color: #e74c3c; }
 #santos { background-color: #f1c40f; }
 
+/* Espaciado adicional entre la sección de botones y los botones de utilidad */
+.button-container {
+    margin-top: 40px; /* Agrega espaciado extra para separar los botones de guardar y limpiar */
+}
+
 /* Estilos para los botones de utilidad (Guardar y Limpiar) */
 .button-utility {
     width: 120px;
@@ -42,9 +47,9 @@ body {
 #saveVotes { background-color: #2ecc71; }
 #clearVotes { background-color: #e74c3c; }
 
-/* Estilos de la tabla */
+/* Espaciado adicional para la tabla */
 table {
-    margin: 20px auto;
+    margin: 50px auto; /* Agrega un margen superior para alejar la tabla de los botones */
     border-collapse: collapse;
     width: 80%;
 }
@@ -68,6 +73,5 @@ th {
         line-height: 60px;
     }
 }
-@charset "utf-8";
-/* CSS Document */
+
 
